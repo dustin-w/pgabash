@@ -1,7 +1,7 @@
-all: README.txt
+all: README.md
 
-README.txt:
-	echo "Title: Guessing Game, a bash project" > README.txt
-	date >> README.txt
-	echo "$$(wc -l < guessinggame.sh)" >> README.txt
+README.md:
+	echo "Title: Guessing Game, a bash project" > README.md
+	date >> README.md
+	echo "$$(wc -l < guessinggame.sh)" >> README.md
 
